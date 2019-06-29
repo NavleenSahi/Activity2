@@ -27,7 +27,7 @@ class ViewController: UIViewController, WCSessionDelegate {
     
     func session(_session: WCSession, didRecieveMessage message: [String : Any]) {
         print("phone got a message")
-        Outpulabel.text = message["message"] as? String
+        Outpulabel.text = message["Message"] as? String
     }
     
 
